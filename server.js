@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const PORT = 3000;
-const HOST = '127.0.0.1';
+const HOST = '0.0.0.0';
 
 const DATA_DIR = path.join(__dirname, 'data');
 const STUDENTS_XLSX = path.join(DATA_DIR, 'students.xlsx');
